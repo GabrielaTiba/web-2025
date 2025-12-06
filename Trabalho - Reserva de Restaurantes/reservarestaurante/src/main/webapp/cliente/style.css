@@ -1,18 +1,19 @@
 body {
     font-family: Poppins, sans-serif;
     background: #f5f5f5;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    padding-top: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .grid {
+    width: 90%;
+    max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    margin-bottom: 40px;
 }
 
 .mesa-card {
@@ -43,6 +44,10 @@ button:hover {
     width: 300px;
     gap: 10px;
     margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
 }
 
 #form-reserva label {
